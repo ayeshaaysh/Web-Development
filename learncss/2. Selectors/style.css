@@ -1,0 +1,28 @@
+
+/*Element Selector*/
+body {
+    font-size: 24px;
+}
+
+p:hover {
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Nesting Selector*/
+.group>p {
+    color: coral;
+}
+
+/*Id Selector*/
+#first {
+    color: salmon;
+
+}
+
+/*Class Selector and Group Selectors*/
+.select, .group {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aquamarine;
+}
+
